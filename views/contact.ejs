@@ -1,0 +1,50 @@
+<%- include('include/head')  %>
+
+  
+  <div class="block-31" style="position: relative;">
+    <div class="owl-carousel loop-block-31 ">
+      <div class="block-30 block-30-sm item" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="heading">Get In Touch</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="site-section">
+    <div class="container">
+      <div class="row block-9">
+        <div class=" contact-form col-md-6 pr-md-5">
+          <form action="/save_contact" method="post" autocomplete="off">
+            <div class="form-group">
+              <input type="text" name="userName" class="form-control px-3 py-3" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="userEmail" class="form-control px-3 py-3" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control px-3 py-3" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" cols="30" rows="7" class="form-control px-3 py-3" placeholder="Message" required></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+            </div>
+          </form>
+        
+        </div>
+
+        <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10404.940765325828!2d81.0123801044283!3d26.85410502658827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be38cb2b6f2b1%3A0xc5103e96d816b169!2sSUNdigo%20Tower!5e0!3m2!1sen!2sin!4v1715334832594!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <%- include('include/footer')  %>
