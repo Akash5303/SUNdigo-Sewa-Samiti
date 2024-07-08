@@ -9,7 +9,7 @@ module.exports = app => {
   router.get("/gallery", mainController.gallery)
   router.get("/about", mainController.about)
   router.get("/gallery", mainController.gallery)
-  router.get("/ourservices", mainController.ourservices)
+  router.get("/Activities", mainController.Activities)
   router.get("/blog", mainController.blog)
   router.get("/donate", mainController.donate)
 

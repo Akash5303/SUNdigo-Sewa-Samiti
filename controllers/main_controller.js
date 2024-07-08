@@ -54,9 +54,9 @@ exports.blog = async (req, res) => {
   }
 };
 
-exports.ourservices = async (req, res) => {
+exports.Activities = async (req, res) => {
   try {
-    res.render("ourservices");
+    res.render("Activities");
   } catch (err) {
     console.error(err);
     res.status(500).send(err);

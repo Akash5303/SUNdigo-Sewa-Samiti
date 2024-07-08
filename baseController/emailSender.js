@@ -5,8 +5,8 @@ const MAIL_SETTINGS = {
   port: 465,
   secure: true,
   auth: {
-    user: 'saxenakash53@gmail.com',
-    pass: 'ldyn izms mduy nszs'
+    user: 'sundigo.operations@gmail.com',
+    pass: 'sstn gwus hkkl yjzf'
   }
 };
 
@@ -26,7 +26,7 @@ const transporter = nodemailer.createTransport(MAIL_SETTINGS);
 const sendQueryEmail = async (userName, userEmail,subject, message) => {
   try {
     const msg = await transporter.sendMail({
-      to: 'akashsaxena5303@gmail.com',
+      to: 'sundigosolars@gmail.com',
       // from: MAIL_SETTINGS.auth.user,
       from : "Sundigo solar solutions <MAIL_SETTINGS.auth.user>",
       subject: 'Contact Query',

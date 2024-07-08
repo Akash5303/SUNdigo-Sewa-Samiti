@@ -1,7 +1,7 @@
 {
-  "name": "givehope-master",
+  "name": "SUNdigo Sewa samiti",
   "version": "1.0.0",
-  "description": "Thank you for using our template!",
+  "description": "Welcome to SUNdigo sewa samiti",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
